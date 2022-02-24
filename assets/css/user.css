@@ -3,11 +3,15 @@
   font-family: sans-serif;
   padding: 0;
   margin: 0;
-  text-decoration: none;
 }
 
-img{
+img {
   height: 30px;
+}
+
+button {
+  border: none;
+  background: none;
 }
 
 div#container-mobile div#header {
@@ -19,27 +23,8 @@ div#container-mobile div#header {
   border-bottom: 1px solid lightgray;
 }
 
-div#container-mobile div#story{
-  height: 100px;
-  background-color: #FAFAFA;
-  border-bottom: 1px solid lightgray;
-}
-
-div#container-mobile div#story div{
-  padding: 10px;
-}
-
-div#container-mobile div#story div p{
-  font-size: 13px;
-}
-
-img#profile_story{
-  height: 55px;
-}
-
-img.profile{
-  border-radius: 100%;
-  border: 1px solid lightgray;
+div#container-mobile div#header h1 {
+  font-size: 18px;
 }
 
 div#container-mobile div#footer {
@@ -47,13 +32,22 @@ div#container-mobile div#footer {
   align-items: center;
   position: fixed;
   padding: 5px;
+  height: 45px;
   width: 100%;
   justify-content: space-between;
   border-top: 1px solid lightgray;
   bottom: 0;
 }
 
-button{
-  border: none;
-  background: none;
+div#container-mobile div#footer img#profile {
+  border-radius: 70%;
+  border: 1px solid lightgray;
+  margin: 0 0 -3px 0;
+}
+
+div#container-mobile div#footer button:last-child {
+  border-radius: 100%;
+  border: 1px solid black;
+  height: 35px;
+  width: 35px;
 }
