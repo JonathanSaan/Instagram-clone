@@ -107,4 +107,28 @@ div#container-mobile div#footer {
     justify-content: space-between;
     width: 280px;
   }
+  div#container-desktop header div#btn div#button_hover {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 .5em lightgray;
+    border-top-left-radius: 5px;
+    border-end-start-radius: 5px;
+    margin: 215px 0 0 85px;
+    height: 170px;
+    width: 200px;
+    z-index: 2;
+  }
+  div#container-desktop header div#btn div#button_hover button {
+    height: 34px;
+    width: 100%;
+  }
+  div#container-desktop header div#btn div#button_hover button:hover {
+    background-color: #EFEFEF;
+  }
+  div#container-desktop header div#btn div#button_hover a button:nth-child(1) {
+    border-top-left-radius: 5px;
+  }
+  div#container-desktop header div#btn div#button_hover button:nth-child(5) {
+    border-end-start-radius: 5px;
+  }
 }
