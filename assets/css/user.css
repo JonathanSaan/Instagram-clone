@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
   padding: 0;
   margin: 0;
 }
@@ -27,10 +29,76 @@ div#container-mobile div#header h1 {
   font-size: 18px;
 }
 
+div#container-mobile div#perfil {
+  display: flex;
+  padding: 10px 10px 20px 10px;
+}
+
+div#container-mobile div#perfil img#user_profile {
+  border-radius: 70%;
+  border: 1px solid lightgray;
+  height: 80px;
+}
+
+div#container-mobile div#perfil div#things_perfil {
+  align-items: center;
+  margin: 5px 5pc 5px 10%;
+}
+
+div#container-mobile div#perfil div#things_perfil h2 {
+  font-weight: 300;
+  font-size: 26px;
+}
+
+div#container-mobile div#perfil div#things_perfil button {
+  background-color: white;
+  font-weight: 700;
+  margin: 3px 0;
+  width: 210px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+div#container-mobile div#description {
+  display: inline-block;
+  width: 100%;
+  padding: 0 0 30px 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+div#container-mobile div#description h3 {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+div#container-mobile div#description a {
+  color: darkblue;
+}
+
+div#container-mobile div#numbers {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+  height: 60px;
+  justify-content: space-evenly;
+}
+
+div#container-mobile div#numbers ul li:first-child {
+  font-weight: 700;
+  color: black;
+}
+
+div#container-mobile div#numbers ul li {
+  text-align: center;
+  color: gray;
+}
+
 div#container-mobile div#footer {
   display: flex;
-  align-items: center;
   position: fixed;
+  align-items: center;
+  background-color: white;
   padding: 5px;
   height: 45px;
   width: 100%;
