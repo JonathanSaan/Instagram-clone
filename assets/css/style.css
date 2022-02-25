@@ -33,17 +33,25 @@ div#container-mobile div#story div {
   padding: 10px;
 }
 
-div#container-mobile div#story div p {
-  font-size: 13px;
-}
-
 img#profile_story {
   height: 55px;
+}
+
+div#container-mobile div#story div img#plus {
+  height: 18px;
+  margin: 0 0 -2px -20px;
+  border: 1.3px solid white;
+  border-radius: 100%;
 }
 
 img.profile {
   border-radius: 100%;
   border: 1px solid lightgray;
+}
+
+div#container-mobile div#story div p {
+  padding: 3px 0 0 2px;
+  font-size: 11px;
 }
 
 div#container-mobile div#footer {
@@ -71,6 +79,11 @@ div#container-mobile div#footer {
   img {
     height: 35px;
   }
+  div#container-desktop {
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 100%;
+  }
   div#container-desktop header {
     display: flex;
     align-items: center;
@@ -88,7 +101,7 @@ div#container-mobile div#footer {
     border: none;
     outline: none;
   }
-  div#container-desktop header div {
+  div#container-desktop header div#btn {
     display: flex;
     align-items: center;
     justify-content: space-between;
