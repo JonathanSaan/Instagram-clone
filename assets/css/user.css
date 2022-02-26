@@ -80,7 +80,7 @@ div#container-mobile div#numbers {
   display: flex;
   border-bottom: 1px solid lightgray;
   align-items: center;
-  height: 60px;
+  height: 65px;
   justify-content: space-evenly;
 }
 
@@ -92,6 +92,22 @@ div#container-mobile div#numbers ul li:first-child {
 div#container-mobile div#numbers ul li {
   text-align: center;
   color: gray;
+}
+
+div#container-mobile div#options {
+  display: flex;
+  justify-content: space-evenly;
+  height: 45px;
+  border-bottom: 1px solid lightgray;
+}
+
+div#container-mobile div#options button img {
+  height: 33px;
+  filter: invert(50%);
+}
+
+div#container-mobile div#options button:first-child {
+  filter: invert(84%) sepia(52%) saturate(4436%) hue-rotate(160deg) brightness(93%) contrast(101%);
 }
 
 div#container-mobile div#footer {
