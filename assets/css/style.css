@@ -109,6 +109,10 @@ div#container-mobile div#footer {
     width: 280px;
   }
   div#container-desktop header div#btn div#button_hover {
+    display: none;
+  }
+  div#container-desktop header div#btn div#button_hover.active {
+    display: block;
     position: absolute;
     background-color: white;
     box-shadow: 0 0 .5em lightgray;
